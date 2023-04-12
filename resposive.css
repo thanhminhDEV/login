@@ -10,10 +10,9 @@
         left: 26px;
     }
     .login_container_info {
-        margin-top: 86px;
-        width: calc(100% - 26px);
+        margin: 86px auto 0;
+        width: calc(100% - 52px);
         align-content: normal;
-        padding-left: 26px;
     }
     .login_container_info h1 {
         max-width: 100%;
@@ -35,7 +34,7 @@
     }
     .login_container_form {
         padding-top: 0;
-        width: calc(100% - 26px);
+        width: calc(100% - 52px);
         align-content: normal;
         flex-wrap: nowrap;
         margin: 0 auto;
