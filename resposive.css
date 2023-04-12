@@ -1,0 +1,59 @@
+@media all and (max-width: 600px) {
+    .login_container {
+        flex-direction: column;
+        position: relative;
+    }
+    .login_container .logo {
+        position: absolute;
+        display: block;
+        top: 18px;
+        left: 26px;
+    }
+    .login_container_info {
+        margin-top: 86px;
+        width: calc(100% - 26px);
+        align-content: normal;
+        padding-left: 26px;
+    }
+    .login_container_info h1 {
+        max-width: 100%;
+        font-size: 1.625rem;
+        line-height: 1.5;
+    }
+    .login_container_info p:nth-child(2) {
+        margin-top: 5px;
+        font-size: 1.3125rem;
+        line-height: 1.5;
+    }
+    .login_container_info p:nth-child(3) {
+        margin-top: 32px;
+    }
+    .login_container_info p:nth-child(3),
+    .login_container_info p:nth-child(4) {
+        font-size: 0.875rem;
+        line-height: 1.5;
+    }
+    .login_container_form {
+        padding-top: 0;
+        width: calc(100% - 26px);
+        align-content: normal;
+        flex-wrap: nowrap;
+        margin: 0 auto;
+    }
+    .login_container_form p:nth-child(1) {
+        display: none;
+    }
+    .login_container_form input:nth-child(2) {
+        max-width: 100%;
+    }
+    .login_container_form input:nth-child(3) {
+        max-width: 100%;
+    }
+    .login_container_form p:nth-child(4) {
+        max-width: 100%;
+    }
+    .login_container_form a:nth-child(5) {
+        max-width: 100%;
+        padding: 18px 0;
+    }
+}
